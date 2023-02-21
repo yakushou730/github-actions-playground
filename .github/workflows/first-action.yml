@@ -1,0 +1,19 @@
+name: First Workflow
+on:
+  - workflow_dispatch # 表示要透過手動觸發
+  - pull_request
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello Shou !!!"
+      - name: Print goodbye
+        run: echo "Bye~"
+      - name: Print best
+        run: echo "you are the best"
+      - name: Print multiple command
+        run: |
+          echo "First output"
+          echo "Second output"
+          echo "Third output"
