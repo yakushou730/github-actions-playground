@@ -1,5 +1,6 @@
 name: First Workflow
 on: workflow_dispatch # 表示要透過手動觸發
+pull_request:
 jobs:
   first-job:
     runs-on: ubuntu-latest
