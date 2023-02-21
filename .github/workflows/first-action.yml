@@ -10,8 +10,8 @@ jobs:
         run: echo "Hello Shou !!!"
       - name: Print goodbye
         run: echo "Bye~"
-      - name: Print best
-        run: echo "you are the best"
+      - name: Print best 01
+        run: echo "you are the best 01"
       - name: Print multiple command
         run: |
           echo "First output"
